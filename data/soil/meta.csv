@@ -1,0 +1,11 @@
+Variable	Description	Type	Unit	MaxVal	MinVal	MeanVal	%CompleteInDB
+SerialNum	Serial number 	Int	DB Key	11232	1		100
+PageNumber	Page number the entire profile is described in the source book	Int					22
+Source	Acronym for source book of profile description	String					100
+OrgProfID	Profile identification used in the source book	String					100
+Lat	Latitude	Decimal degrees		4.6333	-33.65	-11.5016	100
+Long	Longitude	Decimal degrees		-7.7833	-73.85	-52.1523	100
+SoilClass	Soil name according to the 1970s and 1980s soil classification system	String					98
+HzDeIn	Soil horizon initial depth	Int	cm	240	0	30	100
+HzDeFn	Soil horizon final depth	Int	cm	500	1	59	99
+TotFe2O3	Total Fe2O3 (sulfuric attack)	FloatPt	%	88.9	0	6.2	68
